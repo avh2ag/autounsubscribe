@@ -1,7 +1,5 @@
-import { Subscription } from 'rxjs';
-
 export class SubscriptionList {
-  [key: string]: Subscription;
+  [key: string]: any;
 }
 
 export interface AutoUnsubscribeParams {
